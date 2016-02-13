@@ -35,7 +35,7 @@ controller.hears(['^.request_feature (.*)$'],'ambient,direct_mention,mention,dir
 
 controller.hears(['(^.ls$)','help'],'ambient,direct_mention,mention,direct_message',function(bot,message) {
   controller.storage.users.get(message.user,function(err,user) {
-      bot.reply(message,"Explicit commands are as follows:\n.name_group <name>\n .identify\n .joke\n .song\n .code \n.request_feature <feature>\n\nI also recognize some non-explicit commands, such as \"Where do your jokes come from?\");
+      bot.reply(message,"Explicit commands are as follows:\n.name_group <name>\n .identify\n .joke\n .song\n .code \n.request_feature <feature>\n\nI also recognize some non-explicit commands, such as \"Where do your jokes come from?\"")
   });
 })
 

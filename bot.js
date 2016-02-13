@@ -65,7 +65,7 @@ controller.hears(['song'],'ambient,direct_mention,mention,direct_message',functi
 })
 
 controller.hears(['Chuck Norris'],'ambient,direct_mention,mention,direct_message',function(bot,message) {
-      bot.reply(message, 'Chuck Norris is the best!');
+      bot.reply(message, 'Chuck Norris is the best! More importantly, the API was easy to work with.');
 })
 
 controller.hears(['why'],'ambient,direct_mention,mention,direct_message',function(bot,message) {
@@ -73,7 +73,7 @@ controller.hears(['why'],'ambient,direct_mention,mention,direct_message',functio
 })
 
 controller.hears(['Eye of the Tiger'],'ambient,direct_mention,mention,direct_message',function(bot,message) {
-      bot.reply(message, 'Eye of the Tiger is best song!');
+      bot.reply(message, 'Eye of the Tiger is the best song! But yeah, don\'t worry, more functionality should be coming for my song recommendations.');
 })
 
 controller.hears(['hello','hi','hey'],'ambient,direct_mention,mention,direct_message',function(bot,message) {
@@ -81,7 +81,7 @@ controller.hears(['hello','hi','hey'],'ambient,direct_mention,mention,direct_mes
 })
 
 controller.hears(['where'],'ambient,direct_mention,mention,direct_message',function(bot,message) {
-      bot.reply(message, 'My jokes are from from the Internet Chuck Norris Database, they have a swell API. My songs come from a local JSON file. I come from a questionable implementation of the Slackbot Botkit.');
+      bot.reply(message, 'My jokes are from from the Internet Chuck Norris Database, they have a swell API. My songs come from a local JSON file. I come from questionable use of the Slackbot Botkit.');
 })
 
 controller.hears(['code'],'ambient,direct_mention,mention,direct_message',function(bot,message) {
